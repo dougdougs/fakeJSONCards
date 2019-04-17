@@ -1,4 +1,5 @@
-{
+[
+	{
 	id: 1,
 	title: "Title 01",
 	link: "https://via.placeholder.com/728x728.png?text=1",
@@ -63,3 +64,5 @@
 		"finances"
 	]
 }
+
+]
