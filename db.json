@@ -1,64 +1,229 @@
+    
 {
-	"cards": [{
+	"cards": [
+        {
 			"id": 1,
-			"title": "Title 01",
-			"link": "https://via.placeholder.com/728x728.png?text=1",
-			"active": false,
+			"title": "Google Data Studio",
+			"link": "https://datastudio.google.com/u/1/reporting/1vr7_TCfNXuAH0nhRSIS9pELgG3AC4Wbm/page/qa9k",
+			"active": true,
 			"permission_role": [
-				"master",
-				"dev",
-				"marketing",
-				"logistics",
-				"finances"
-			]
+                "master",
+                "dev",
+                "marketing",
+                "logistics",
+                "finances",
+                "customer success",
+                "analytics",
+                "operations"
+            ]
 		},
-		{
+        {
 			"id": 2,
-			"title": "Title 02",
-			"link": "https://via.placeholder.com/728x728.png?text=2",
+			"title": "Shopify - Clientes",
+			"link": "https://zissou.myshopify.com/admin/customers",
 			"active": true,
 			"permission_role": [
-				"master",
-				"dev",
-				"logistics",
-				"finances"
-			]
+                "master",
+                "dev",
+                "marketing",
+                "logistics",
+                "finances",
+                "customer success",
+                "analytics",
+                "operations"
+            ]
 		},
-		{
+        {
 			"id": 3,
-			"title": "Title 03",
-			"link": "https://via.placeholder.com/728x728.png?text=3",
+			"title": "Shopify - Pedidos",
+			"link": "https://zissou.myshopify.com/admin/orders",
 			"active": true,
 			"permission_role": [
-				"master",
-				"dev",
-				"marketing",
-				"logistics",
-				"finances"
-			]
+                "master",
+                "dev",
+                "marketing",
+                "logistics",
+                "finances",
+                "customer success",
+                "analytics",
+                "operations"
+            ]
 		},
-		{
+        {
 			"id": 4,
-			"title": "Title 04",
-			"link": "https://via.placeholder.com/728x728.png?text=4",
+			"title": "TinyERP",
+			"link": "https://erp.tiny.com.br",
 			"active": true,
 			"permission_role": [
-				"master",
-				"dev",
-				"marketing"
-			]
+                "master",
+                "dev",
+                "marketing",
+                "logistics",
+                "finances",
+                "customer success",
+                "analytics",
+                "operations"
+            ]
 		},
-		{
+        {
 			"id": 5,
-			"title": "Title 05",
-			"link": "https://via.placeholder.com/728x728.png?text=5",
+			"title": "MOIP",
+			"link": "https://connect.wirecard.com.br",
 			"active": true,
 			"permission_role": [
-				"master",
-				"dev",
-				"marketing",
-				"finances"
-			]
+                "master",
+                "dev",
+                "marketing",
+                "logistics",
+                "finances",
+                "customer success",
+                "analytics",
+                "operations"
+            ]
+		},
+        {
+			"id": 6,
+			"title": "Google Analytics",
+			"link": "https://analytics.google.com",
+			"active": true,
+			"permission_role": [
+                "master",
+                "dev",
+                "marketing",
+                "logistics",
+                "finances",
+                "customer success",
+                "analytics",
+                "operations"
+            ]
+		},
+        {
+			"id": 7,
+			"title": "Google Adwords",
+			"link": "https://adwords.google.com",
+			"active": true,
+			"permission_role": [
+                "master",
+                "dev",
+                "marketing",
+                "logistics",
+                "finances",
+                "customer success",
+                "analytics",
+                "operations"
+            ]
+		},
+        {
+			"id": 8,
+			"title": "Facebook Zissou",
+			"link": "https://www.facebook.com/zissoubr/",
+			"active": true,
+			"permission_role": [
+                "master",
+                "dev",
+                "marketing",
+                "logistics",
+                "finances",
+                "customer success",
+                "analytics",
+                "operations"
+            ]
+		},
+        {
+			"id": 9,
+			"title": "Trello - Atendimento",
+			"link": "https://trello.com/b/JAeTZKFi/zissou-logística",
+			"active": true,
+			"permission_role": [
+                "master",
+                "dev",
+                "marketing",
+                "logistics",
+                "finances",
+                "customer success",
+                "analytics",
+                "operations"
+            ]
+		},
+        {
+			"id": 10,
+			"title": "Typeform - Atendimento",
+			"link": "https://budadigital.typeform.com/to/to3eQc",
+			"active": true,
+			"permission_role": [
+                "master",
+                "dev",
+                "marketing",
+                "logistics",
+                "finances",
+                "customer success",
+                "analytics",
+                "operations"
+            ]
+		},
+        {
+			"id": 11,
+			"title": "Trello - Devolução",
+			"link": "https://trello.com/b/7y8dBNP0/zissou-atendimento",
+			"active": true,
+			"permission_role": [
+                "master",
+                "dev",
+                "marketing",
+                "logistics",
+                "finances",
+                "customer success",
+                "analytics",
+                "operations"
+            ]
+		},
+        {
+			"id": 12,
+			"title": "Typeform - Devolução",
+			"link": "https://budadigital.typeform.com/to/A8z5KH",
+			"active": true,
+			"permission_role": [
+                "master",
+                "dev",
+                "marketing",
+                "logistics",
+                "finances",
+                "customer success",
+                "analytics",
+                "operations"
+            ]
+		},
+        {
+			"id": 13,
+			"title": "Trello - Logística",
+			"link": "https://trello.com/b/JAeTZKFi/zissou-logística",
+			"active": true,
+			"permission_role": [
+                "master",
+                "dev",
+                "marketing",
+                "logistics",
+                "finances",
+                "customer success",
+                "analytics",
+                "operations"
+            ]
+		},
+        {
+			"id": 14,
+			"title": "Typeform - Estoque",
+			"link": "https://budadigital.typeform.com/to/A8z5KH",
+			"active": true,
+			"permission_role": [
+                "master",
+                "dev",
+                "marketing",
+                "logistics",
+                "finances",
+                "customer success",
+                "analytics",
+                "operations"
+            ]
 		}
 	],
 	"profile": {
