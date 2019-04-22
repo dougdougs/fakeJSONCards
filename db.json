@@ -1,232 +1,285 @@
-    
-{
-	"services": [
-        {
-			"id": 1,
-			"title": "Google Data Studio",
-			"link": "https://datastudio.google.com/u/1/reporting/1vr7_TCfNXuAH0nhRSIS9pELgG3AC4Wbm/page/qa9k",
-			"active": true,
-			"permission_role": [
-                "master",
-                "dev",
-                "marketing",
-                "logistics",
-                "finances",
-                "customer success",
-                "analytics",
-                "operations"
-            ]
-		},
-        {
-			"id": 2,
-			"title": "Shopify - Clientes",
-			"link": "https://zissou.myshopify.com/admin/customers",
-			"active": true,
-			"permission_role": [
-                "master",
-                "dev",
-                "marketing",
-                "logistics",
-                "finances",
-                "customer success",
-                "analytics",
-                "operations"
-            ]
-		},
-        {
-			"id": 3,
-			"title": "Shopify - Pedidos",
-			"link": "https://zissou.myshopify.com/admin/orders",
-			"active": true,
-			"permission_role": [
-                "master",
-                "dev",
-                "marketing",
-                "logistics",
-                "finances",
-                "customer success",
-                "analytics",
-                "operations"
-            ]
-		},
-        {
-			"id": 4,
-			"title": "TinyERP",
-			"link": "https://erp.tiny.com.br",
-			"active": true,
-			"permission_role": [
-                "master",
-                "dev",
-                "marketing",
-                "logistics",
-                "finances",
-                "customer success",
-                "analytics",
-                "operations"
-            ]
-		},
-        {
-			"id": 5,
-			"title": "MOIP",
-			"link": "https://connect.wirecard.com.br",
-			"active": true,
-			"permission_role": [
-                "master",
-                "dev",
-                "marketing",
-                "logistics",
-                "finances",
-                "customer success",
-                "analytics",
-                "operations"
-            ]
-		},
-        {
-			"id": 6,
-			"title": "Google Analytics",
-			"link": "https://analytics.google.com",
-			"active": true,
-			"permission_role": [
-                "master",
-                "dev",
-                "marketing",
-                "logistics",
-                "finances",
-                "customer success",
-                "analytics",
-                "operations"
-            ]
-		},
-        {
-			"id": 7,
-			"title": "Google Adwords",
-			"link": "https://adwords.google.com",
-			"active": true,
-			"permission_role": [
-                "master",
-                "dev",
-                "marketing",
-                "logistics",
-                "finances",
-                "customer success",
-                "analytics",
-                "operations"
-            ]
-		},
-        {
-			"id": 8,
-			"title": "Facebook Zissou",
-			"link": "https://www.facebook.com/zissoubr/",
-			"active": true,
-			"permission_role": [
-                "master",
-                "dev",
-                "marketing",
-                "logistics",
-                "finances",
-                "customer success",
-                "analytics",
-                "operations"
-            ]
-		},
-        {
-			"id": 9,
-			"title": "Trello - Atendimento",
-			"link": "https://trello.com/b/JAeTZKFi/zissou-logística",
-			"active": true,
-			"permission_role": [
-                "master",
-                "dev",
-                "marketing",
-                "logistics",
-                "finances",
-                "customer success",
-                "analytics",
-                "operations"
-            ]
-		},
-        {
-			"id": 10,
-			"title": "Typeform - Atendimento",
-			"link": "https://budadigital.typeform.com/to/to3eQc",
-			"active": true,
-			"permission_role": [
-                "master",
-                "dev",
-                "marketing",
-                "logistics",
-                "finances",
-                "customer success",
-                "analytics",
-                "operations"
-            ]
-		},
-        {
-			"id": 11,
-			"title": "Trello - Devolução",
-			"link": "https://trello.com/b/7y8dBNP0/zissou-atendimento",
-			"active": true,
-			"permission_role": [
-                "master",
-                "dev",
-                "marketing",
-                "logistics",
-                "finances",
-                "customer success",
-                "analytics",
-                "operations"
-            ]
-		},
-        {
-			"id": 12,
-			"title": "Typeform - Devolução",
-			"link": "https://budadigital.typeform.com/to/A8z5KH",
-			"active": true,
-			"permission_role": [
-                "master",
-                "dev",
-                "marketing",
-                "logistics",
-                "finances",
-                "customer success",
-                "analytics",
-                "operations"
-            ]
-		},
-        {
-			"id": 13,
-			"title": "Trello - Logística",
-			"link": "https://trello.com/b/JAeTZKFi/zissou-logística",
-			"active": true,
-			"permission_role": [
-                "master",
-                "dev",
-                "marketing",
-                "logistics",
-                "finances",
-                "customer success",
-                "analytics",
-                "operations"
-            ]
-		},
-        {
-			"id": 14,
-			"title": "Typeform - Estoque",
-			"link": "https://budadigital.typeform.com/to/A8z5KH",
-			"active": true,
-			"permission_role": [
-                "master",
-                "dev",
-                "marketing",
-                "logistics",
-                "finances",
-                "customer success",
-                "analytics",
-                "operations"
-            ]
-		}
-	],
-	"profile": {
-		"name": "dougdougs"
-	}
-}
+    {
+
+        "roles": [{
+                "_id": 0,
+                "guid": "59243694-f588-419b-9415-4564bf76e732",
+                "title": "master",
+                "isActive": true,
+                "picture": "http://placehold.it/32x32",
+                "tasks": [
+                    6,
+                    1,
+                    1,
+                    6
+                ]
+            },
+            {
+                "_id": 1,
+                "guid": "8be39867-78e8-4765-8f2a-35c9114ac917",
+                "title": "dev",
+                "isActive": false,
+                "picture": "http://placehold.it/32x32",
+                "tasks": [
+                    2,
+                    5,
+                    5,
+                    4,
+                    1,
+                    2
+                ]
+            },
+            {
+                "_id": 2,
+                "guid": "1d368b85-df60-4367-a4ec-f5721c963f7e",
+                "title": "marketing",
+                "isActive": true,
+                "picture": "http://placehold.it/32x32",
+                "tasks": [
+                    4,
+                    4,
+                    1,
+                    1,
+                    2
+                ]
+            },
+            {
+                "_id": 3,
+                "guid": "7055afb2-fcd0-4b25-9876-3af54a84ff48",
+                "title": "logistics",
+                "isActive": true,
+                "picture": "http://placehold.it/32x32",
+                "tasks": [
+                    5,
+                    5,
+                    6,
+                    2,
+                    1,
+                    3
+                ]
+            },
+            {
+                "_id": 4,
+                "guid": "3b045bca-3202-44af-a819-0ab0488bc301",
+                "title": "finances",
+                "isActive": false,
+                "picture": "http://placehold.it/32x32",
+                "tasks": [
+                    4,
+                    2,
+                    6,
+                    6
+                ]
+            },
+            {
+                "_id": 5,
+                "guid": "8b819d4f-7818-4149-9b57-0f27dcc71574",
+                "title": "customer success",
+                "isActive": true,
+                "picture": "http://placehold.it/32x32",
+                "tasks": [
+                    1,
+                    4,
+                    2,
+                    4
+                ]
+            },
+            {
+                "_id": 6,
+                "guid": "d038822f-0a29-4ecd-9de1-ebd0631721ed",
+                "title": "analytics",
+                "isActive": true,
+                "picture": "http://placehold.it/32x32",
+                "tasks": [
+                    2,
+                    5,
+                    5,
+                    2,
+                    2
+                ]
+            },
+            {
+                "_id": 7,
+                "guid": "0cce9108-9c83-4516-80f1-49273e5639ce",
+                "title": "operations",
+                "isActive": true,
+                "picture": "http://placehold.it/32x32",
+                "tasks": [
+                    4,
+                    5,
+                    1
+                ]
+            }
+        ],
+        "tasks": [{
+                "_id": 0,
+                "guid": "aed4612c-bbfe-4d5f-a857-34e1462c6e77",
+                "title": "Tarefa 0",
+                "isActive": false,
+                "picture": "http://placehold.it/32x32",
+                "services": [
+                    10,
+                    11,
+                    7,
+                    12
+                ]
+            },
+            {
+                "_id": 1,
+                "guid": "d40ad859-880c-4375-b9ce-66a9c1314a5d",
+                "title": "Tarefa 1",
+                "isActive": false,
+                "picture": "http://placehold.it/32x32",
+                "services": [
+                    4,
+                    9,
+                    12,
+                    5,
+                    1
+                ]
+            },
+            {
+                "_id": 2,
+                "guid": "3747dd37-3b3c-4fdd-b6e3-5674072be5ce",
+                "title": "Tarefa 2",
+                "isActive": false,
+                "picture": "http://placehold.it/32x32",
+                "services": [
+                    14,
+                    10,
+                    10,
+                    7,
+                    12
+                ]
+            },
+            {
+                "_id": 3,
+                "guid": "17df5f2c-99b4-42b1-be15-ccd169dd9d7a",
+                "title": "Tarefa 3",
+                "isActive": true,
+                "picture": "http://placehold.it/32x32",
+                "services": [
+                    1,
+                    9,
+                    12,
+                    9,
+                    2
+                ]
+            },
+            {
+                "_id": 4,
+                "guid": "8e6f0662-6c31-4159-97e8-109f32f1ae4b",
+                "title": "Tarefa 4",
+                "isActive": true,
+                "picture": "http://placehold.it/32x32",
+                "services": [
+                    1,
+                    9,
+                    13,
+                    12,
+                    2
+                ]
+            },
+            {
+                "_id": 5,
+                "guid": "67fe5ce2-8022-46d8-8c8f-71970eb242a6",
+                "title": "Tarefa 5",
+                "isActive": false,
+                "picture": "http://placehold.it/32x32",
+                "services": [
+                    2,
+                    11,
+                    10,
+                    1,
+                    7
+                ]
+            }
+        ],
+        "services": [{
+                "_id": 1,
+                "title": "Google Data Studio",
+                "link": "https://datastudio.google.com/u/1/reporting/1vr7_TCfNXuAH0nhRSIS9pELgG3AC4Wbm/page/qa9k",
+                "active": true
+            },
+            {
+                "_id": 2,
+                "title": "Shopify - Clientes",
+                "link": "https://zissou.myshopify.com/admin/customers",
+                "active": true
+            },
+            {
+                "_id": 3,
+                "title": "Shopify - Pedidos",
+                "link": "https://zissou.myshopify.com/admin/orders",
+                "active": true
+            },
+            {
+                "_id": 4,
+                "title": "TinyERP",
+                "link": "https://erp.tiny.com.br",
+                "active": true
+            },
+            {
+                "_id": 5,
+                "title": "MOIP",
+                "link": "https://connect.wirecard.com.br",
+                "active": true
+            },
+            {
+                "_id": 6,
+                "title": "Google Analytics",
+                "link": "https://analytics.google.com",
+                "active": true
+            },
+            {
+                "_id": 7,
+                "title": "Google Adwords",
+                "link": "https://adwords.google.com",
+                "active": true
+            },
+            {
+                "_id": 8,
+                "title": "Facebook Zissou",
+                "link": "https://www.facebook.com/zissoubr/",
+                "active": true
+            },
+            {
+                "_id": 9,
+                "title": "Trello - Atendimento",
+                "link": "https://trello.com/b/JAeTZKFi/zissou-logística",
+                "active": true
+            },
+            {
+                "_id": 10,
+                "title": "Typeform - Atendimento",
+                "link": "https://budadigital.typeform.com/to/to3eQc",
+                "active": true
+            },
+            {
+                "_id": 11,
+                "title": "Trello - Devolução",
+                "link": "https://trello.com/b/7y8dBNP0/zissou-atendimento",
+                "active": true
+            },
+            {
+                "_id": 12,
+                "title": "Typeform - Devolução",
+                "link": "https://budadigital.typeform.com/to/A8z5KH",
+                "active": true
+            },
+            {
+                "_id": 13,
+                "title": "Trello - Logística",
+                "link": "https://trello.com/b/JAeTZKFi/zissou-logística",
+                "active": true
+            },
+            {
+                "_id": 14,
+                "title": "Typeform - Estoque",
+                "link": "https://budadigital.typeform.com/to/A8z5KH",
+                "active": true
+            }
+        ],
+        "profile": {
+            "name": "dougdougs"
+        }
+    }
