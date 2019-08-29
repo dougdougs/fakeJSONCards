@@ -104,7 +104,7 @@
         "title": "Processos Internos",
         "isActive": false,
         "picture": "http://placehold.it/32x32",
-        "services": [29, 30, 31]
+        "services": [29, 30, 31, 33]
     }, {
         "id": 7,
         "guid": "67fe5ce2-8022-46d8-8c8f-71970eb242a123",
@@ -272,6 +272,11 @@
         "id": 32,
         "title": "Clube de Marcas",
         "link": "https://www.clubedemarcas.com.br/Sistema/403?redirect=/Sistema/buscavazia?ft=403",
+        "active": true
+    },{
+        "id": 33,
+        "title": "Bonificação",
+        "link": "https://budadigital.typeform.com/to/mQYqoN",
         "active": true
     }],
     "profile": {
