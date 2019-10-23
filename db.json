@@ -1,284 +1,479 @@
 {
-    "roles": [{
-        "id": 0,
-        "guid": "59243694-f588-419b-9415-4564bf76e732",
-        "title": "master",
-        "isActive": true,
-        "picture": "http://placehold.it/32x32",
-        "tasks": [0, 1, 2, 3, 4, 5, 6, 7]
-    }, {
-        "id": 1,
-        "guid": "8be39867-78e8-4765-8f2a-35c9114ac917",
-        "title": "dev",
-        "isActive": false,
-        "picture": "http://placehold.it/32x32",
-        "tasks": [0, 1, 2, 3, 4, 5, 6, 7]
-    }, {
-        "id": 2,
-        "guid": "1d368b85-df60-4367-a4ec-f5721c963f7e",
-        "title": "marketing",
-        "isActive": true,
-        "picture": "http://placehold.it/32x32",
-        "tasks": [0, 1, 2, 3, 4, 5, 6, 7]
-    }, {
-        "id": 3,
-        "guid": "7055afb2-fcd0-4b25-9876-3af54a84ff48",
-        "title": "logistics",
-        "isActive": true,
-        "picture": "http://placehold.it/32x32",
-        "tasks": [0, 1, 2, 3, 4, 5, 6, 7]
-    }, {
-        "id": 4,
-        "guid": "3b045bca-3202-44af-a819-0ab0488bc301",
-        "title": "finances",
-        "isActive": false,
-        "picture": "http://placehold.it/32x32",
-        "tasks": [0, 1, 2, 3, 4, 5, 6, 7]
-    }, {
-        "id": 5,
-        "guid": "8b819d4f-7818-4149-9b57-0f27dcc71574",
-        "title": "customer success",
-        "isActive": true,
-        "picture": "http://placehold.it/32x32",
-        "tasks": [0, 1, 2, 3, 4, 5, 6, 7]
-    }, {
-        "id": 6,
-        "guid": "d038822f-0a29-4ecd-9de1-ebd0631721ed",
-        "title": "analytics",
-        "isActive": true,
-        "picture": "http://placehold.it/32x32",
-        "tasks": [0, 1, 2, 3, 4, 5, 6, 7]
-    }, {
-        "id": 7,
-        "guid": "0cce9108-9c83-4516-80f1-49273e5639ce",
-        "title": "operations",
-        "isActive": true,
-        "picture": "http://placehold.it/32x32",
-        "tasks": [0, 1, 2, 3, 4, 5, 6, 7]
-    }],
-    "tasks": [{
-        "id": 0,
-        "guid": "aed4612c-bbfe-4d5f-a857-34e1462c6e77",
-        "title": "Geral",
-        "isActive": false,
-        "picture": "http://placehold.it/32x32",
-        "services": [1, 2, 3]
-    }, {
-        "id": 1,
-        "guid": "d40ad859-880c-4375-b9ce-66a9c1314a5d",
-        "title": "Atendimento",
-        "isActive": false,
-        "picture": "http://placehold.it/32x32",
-        "services": [4, 5, 6, 7, 8, 9, 10, 11, 33]
-    }, {
-        "id": 2,
-        "guid": "3747dd37-3b3c-4fdd-b6e3-5674072be5ce",
-        "title": "Logística",
-        "isActive": false,
-        "picture": "http://placehold.it/32x32",
-        "services": [12, 13, 14, 15, 16, 17, 18, 19, 20]
-    }, {
-        "id": 3,
-        "guid": "17df5f2c-99b4-42b1-be15-ccd169dd9d7a",
-        "title": "Pagamento",
-        "isActive": true,
-        "picture": "http://placehold.it/32x32",
-        "services": [21, 22, 23]
-    }, {
-        "id": 4,
-        "guid": "8e6f0662-6c31-4159-97e8-109f32f1ae4b",
-        "title": "Analytics/Gestão",
-        "isActive": true,
-        "picture": "http://placehold.it/32x32",
-        "services": [24, 25, 26]
-    }, {
-        "id": 5,
-        "guid": "67fe5ce2-8022-46d8-8c8f-71970eb242a6",
-        "title": "Marketing",
-        "isActive": false,
-        "picture": "http://placehold.it/32x32",
-        "services": [27, 28]
-    }, {
-        "id": 6,
-        "guid": "67fe5ce2-8022-46d8-8c8f-71970eb242a56",
-        "title": "Processos Internos",
-        "isActive": false,
-        "picture": "http://placehold.it/32x32",
-        "services": [29, 30, 31]
-    }, {
-        "id": 7,
-        "guid": "67fe5ce2-8022-46d8-8c8f-71970eb242a123",
-        "title": "Benefícios",
-        "isActive": false,
-        "picture": "http://placehold.it/32x32",
-        "services": [32]
-    }],
-    "services": [{
-        "id": 1,
-        "title": "Shopify",
-        "link": "https://zissou.myshopify.com/admin",
-        "active": true
-    }, {
-        "id": 2,
-        "title": "TinyERP",
-        "link": "https://erp.tiny.com.br",
-        "active": true
-    }, {
-        "id": 3,
-        "title": "(Não apagar)",
-        "link": "https://docs.google.com/spreadsheets/d/1jdradedJoMLBYnxKWDlakB7TP5Q48s9hvDwcjqca2ZU/edit#gid=1734055643",
-        "active": true
-    }, {
-        "id": 4,
-        "title": "Trello Atendimento (Pré Venda)",
-        "link": "https://trello.com/b/jJMA3u8r/zissou-atenndimento-pr%C3%A9-venda",
-        "active": true
-    }, {
-        "id": 5,
-        "title": "Trello Atendimento (Pós venda)",
-        "link": "https://trello.com/b/7y8dBNP0/zissou-atendimento-p%C3%B3s-venda",
-        "active": true
-    }, {
-        "id": 6,
-        "title": "Pesquisa de clientes",
-        "link": "https://datastudio.google.com/u/0/reporting/1vr7_TCfNXuAH0nhRSIS9pELgG3AC4Wbm/page/qa9k",
-        "active": true
-    }, {
-        "id": 7,
-        "title": "NeoAssist",
-        "link": "https://zissoua.neoassist.com/",
-        "active": true
-    }, {
-        "id": 8,
-        "title": "WhatsApp Web",
-        "link": "https://web.whatsapp.com/",
-        "active": true
-    }, {
-        "id": 9,
-        "title": "Typeform Devolução",
-        "link": "https://budadigital.typeform.com/to/Lgj5Ti",
-        "active": true
-    }, {
-        "id": 10,
-        "title": "Controle de BOX",
-        "link": "https://docs.google.com/spreadsheets/u/1/d/1Q7jmCtElxCuUh4HSxI_GITZ5A44lb6xN1lUvZGLU6Ko/edit?ts=5bfda909#gid=0",
-        "active": true
-    }, {
-        "id": 11,
-        "title": "NPS Binds",
-        "link": "https://admin.binds.co/#/login/",
-        "active": true
-    }, {
-        "id": 12,
-        "title": "Trello Logística",
-        "link": "https://trello.com/b/JAeTZKFi/zissou-log%C3%ADstica",
-        "active": true
-    }, {
-        "id": 13,
-        "title": "THORP CNT (velho)",
-        "link": "https://thorpe.com.br",
-        "active": true
-    }, {
-        "id": 14,
-        "title": "THORP CNT (novo)",
-        "link": "http://novo.thorpe.com.br/",
-        "active": true
-    }, {
-        "id": 15,
-        "title": "Mandaê",
-        "link": "https://app.mandae.com.br/login",
-        "active": true
-    }, {
-        "id": 16,
-        "title": "Jadlog",
-        "link": "https://www.jadlog.com.br/portalcliente/pages/login.jad",
-        "active": true
-    }, {
-        "id": 17,
-        "title": "ContaFrete",
-        "link": "https://docs.google.com/spreadsheets/u/1/d/1B1H8C79dizGPXWrXhI22GHSA-E4Sfa8MrxpU93QFYR0/edit#gid=0",
-        "active": true
-    }, {
-        "id": 18,
-        "title": "Typeform Movimentação de Estoque",
-        "link": "https://budadigital.typeform.com/to/A8z5KH",
-        "active": true
-    }, {
-        "id": 19,
-        "title": "Consulta CEP",
-        "link": "http://www.buscacep.correios.com.br/sistemas/buscacep/",
-        "active": true
-    }, {
-        "id": 20,
-        "title": "Suporte Alta Rodagem",
-        "link": "https://altarodagem.tomticket.com/",
-        "active": true
-    }, {
-        "id": 21,
-        "title": "Wirecard",
-        "link": "https://connect.wirecard.com.br/login",
-        "active": true
-    }, {
-        "id": 22,
-        "title": "SafraPay",
-        "link": "https://www9.safraempresas.com.br/ibj.html",
-        "active": true
-    }, {
-        "id": 23,
-        "title": "Stone",
-        "link": "https://portal.stone.com.br/#/login",
-        "active": true
-    }, {
-        "id": 24,
-        "title": "Google Analytics",
-        "link": "https://analytics.google.com/analytics/",
-        "active": true
-    }, {
-        "id": 25,
-        "title": "Fluxo do Site (Real Time)",
-        "link": "https://analytics.google.com/analytics/web/#/dashboard/pZbkzB40Se2Xb3b8g0Cpcg/a99792740w146489129p151259536/_u.date00=20190501&_u.date01=20190508/",
-        "active": true
-    }, {
-        "id": 26,
-        "title": "Arvore de KPI + Mapa de Vendas",
-        "link": "https://datastudio.google.com/u/0/reporting/1vr7_TCfNXuAH0nhRSIS9pELgG3AC4Wbm/page/6V9k",
-        "active": true
-    }, {
-        "id": 27,
-        "title": "Adwords",
-        "link": "https://ads.google.com/aw/overview?ocid=224807175&__c=8399666575&authuser=0&__u=9338831302",
-        "active": true
-    }, {
-        "id": 28,
-        "title": "Facebook Ads",
-        "link": "https://www.facebook.com/adsmanager/manage/campaigns?act=1643363105704429",
-        "active": true
-    }, {
-        "id": 29,
-        "title": "Gastos cartão e dinheiro",
-        "link": "https://docs.google.com/spreadsheets/d/1RLCq89QbAwTfrl8DiYqFYjKtvJF0PwGRCjjgn_e7CfM/edit?ts=5cafbe29#gid=0",
-        "active": true
-    }, {
-        "id": 30,
-        "title": "Colchões customizados",
-        "link": "https://docs.google.com/spreadsheets/u/1/d/1UY7HwNnr81FFdlj-X94ItMzMFr_yUCmYnCaa0p96_P0/edit#gid=0",
-        "active": true
-    }, {
-        "id": 31,
-        "title": "Estoque de mimos",
-        "link": "https://docs.google.com/spreadsheets/d/1YsZ7O15CVeASFW0LH8RZ0C9Qy34KQ7J-qihK97PLuew/edit?ts=5cd5c06f#gid=1364667143",
-        "active": true
-    }, {
-        "id": 32,
-        "title": "Clube de Marcas",
-        "link": "https://www.clubedemarcas.com.br/Sistema/403?redirect=/Sistema/buscavazia?ft=403",
-        "active": true
-    },{
-        "id": 33,
-        "title": "Bonificação",
-        "link": "https://budadigital.typeform.com/to/mQYqoN",
-        "active": true
-    }],
+    "roles": [
+        {
+            "id": 0,
+            "guid": "59243694-f588-419b-9415-4564bf76e732",
+            "title": "master",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "tasks": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ]
+        },
+        {
+            "id": 1,
+            "guid": "8be39867-78e8-4765-8f2a-35c9114ac917",
+            "title": "dev",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "tasks": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ]
+        },
+        {
+            "id": 2,
+            "guid": "1d368b85-df60-4367-a4ec-f5721c963f7e",
+            "title": "marketing",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "tasks": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ]
+        },
+        {
+            "id": 3,
+            "guid": "7055afb2-fcd0-4b25-9876-3af54a84ff48",
+            "title": "logistics",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "tasks": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ]
+        },
+        {
+            "id": 4,
+            "guid": "3b045bca-3202-44af-a819-0ab0488bc301",
+            "title": "finances",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "tasks": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ]
+        },
+        {
+            "id": 5,
+            "guid": "8b819d4f-7818-4149-9b57-0f27dcc71574",
+            "title": "customer success",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "tasks": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ]
+        },
+        {
+            "id": 6,
+            "guid": "d038822f-0a29-4ecd-9de1-ebd0631721ed",
+            "title": "analytics",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "tasks": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ]
+        },
+        {
+            "id": 7,
+            "guid": "0cce9108-9c83-4516-80f1-49273e5639ce",
+            "title": "operations",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "tasks": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ]
+        }
+    ],
+    "tasks": [
+        {
+            "id": 0,
+            "guid": "aed4612c-bbfe-4d5f-a857-34e1462c6e77",
+            "title": "Geral",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "services": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "id": 1,
+            "guid": "d40ad859-880c-4375-b9ce-66a9c1314a5d",
+            "title": "Atendimento",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "services": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                33
+            ]
+        },
+        {
+            "id": 2,
+            "guid": "3747dd37-3b3c-4fdd-b6e3-5674072be5ce",
+            "title": "Logística",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "services": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                36
+            ]
+        },
+        {
+            "id": 3,
+            "guid": "17df5f2c-99b4-42b1-be15-ccd169dd9d7a",
+            "title": "Pagamento",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "services": [
+                21,
+                22,
+                23
+            ]
+        },
+        {
+            "id": 4,
+            "guid": "8e6f0662-6c31-4159-97e8-109f32f1ae4b",
+            "title": "Analytics/Gestão",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "services": [
+                24,
+                25,
+                26,
+                35
+            ]
+        },
+        {
+            "id": 5,
+            "guid": "67fe5ce2-8022-46d8-8c8f-71970eb242a6",
+            "title": "Marketing",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "services": [
+                27,
+                28
+            ]
+        },
+        {
+            "id": 6,
+            "guid": "67fe5ce2-8022-46d8-8c8f-71970eb242a56",
+            "title": "Processos Internos",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "services": [
+                29,
+                30,
+                31
+            ]
+        },
+        {
+            "id": 7,
+            "guid": "67fe5ce2-8022-46d8-8c8f-71970eb242a123",
+            "title": "Benefícios",
+            "isActive": false,
+            "picture": "http://placehold.it/32x32",
+            "services": [
+                32
+            ]
+        },
+        {
+            "id": 8,
+            "guid": "15fe5ce2-8022-46d8-8c8f-71970eb242a123",
+            "title": "Fast Shop",
+            "isActive": true,
+            "picture": "http://placehold.it/32x32",
+            "services": [
+                34
+            ]
+        }
+    ],
+    "services": [
+        {
+            "id": 1,
+            "title": "Shopify",
+            "link": "https://zissou.myshopify.com/admin",
+            "active": true
+        },
+        {
+            "id": 2,
+            "title": "TinyERP",
+            "link": "https://erp.tiny.com.br",
+            "active": true
+        },
+        {
+            "id": 3,
+            "title": "(Não apagar)",
+            "link": "https://docs.google.com/spreadsheets/d/1jdradedJoMLBYnxKWDlakB7TP5Q48s9hvDwcjqca2ZU/edit#gid=1734055643",
+            "active": true
+        },
+        {
+            "id": 4,
+            "title": "Trello Atendimento (Pré Venda)",
+            "link": "https://trello.com/b/jJMA3u8r/zissou-atenndimento-pr%C3%A9-venda",
+            "active": true
+        },
+        {
+            "id": 5,
+            "title": "Trello Atendimento (Pós venda)",
+            "link": "https://trello.com/b/7y8dBNP0/zissou-atendimento-p%C3%B3s-venda",
+            "active": true
+        },
+        {
+            "id": 6,
+            "title": "Pesquisa de clientes",
+            "link": "https://datastudio.google.com/u/0/reporting/1vr7_TCfNXuAH0nhRSIS9pELgG3AC4Wbm/page/qa9k",
+            "active": true
+        },
+        {
+            "id": 7,
+            "title": "NeoAssist",
+            "link": "https://zissoua.neoassist.com/",
+            "active": true
+        },
+        {
+            "id": 8,
+            "title": "WhatsApp Web",
+            "link": "https://web.whatsapp.com/",
+            "active": true
+        },
+        {
+            "id": 9,
+            "title": "Typeform Devolução",
+            "link": "https://budadigital.typeform.com/to/Lgj5Ti",
+            "active": true
+        },
+        {
+            "id": 10,
+            "title": "Controle de BOX",
+            "link": "https://docs.google.com/spreadsheets/u/1/d/1Q7jmCtElxCuUh4HSxI_GITZ5A44lb6xN1lUvZGLU6Ko/edit?ts=5bfda909#gid=0",
+            "active": true
+        },
+        {
+            "id": 11,
+            "title": "NPS Binds",
+            "link": "https://admin.binds.co/#/login/",
+            "active": true
+        },
+        {
+            "id": 12,
+            "title": "Trello Logística",
+            "link": "https://trello.com/b/JAeTZKFi/zissou-log%C3%ADstica",
+            "active": true
+        },
+        {
+            "id": 13,
+            "title": "THORP CNT (velho)",
+            "link": "https://thorpe.com.br",
+            "active": true
+        },
+        {
+            "id": 14,
+            "title": "THORP CNT (novo)",
+            "link": "http://novo.thorpe.com.br/",
+            "active": true
+        },
+        {
+            "id": 15,
+            "title": "Mandaê",
+            "link": "https://app.mandae.com.br/login",
+            "active": true
+        },
+        {
+            "id": 16,
+            "title": "Jadlog",
+            "link": "https://www.jadlog.com.br/portalcliente/pages/login.jad",
+            "active": true
+        },
+        {
+            "id": 17,
+            "title": "ContaFrete",
+            "link": "https://docs.google.com/spreadsheets/u/1/d/1B1H8C79dizGPXWrXhI22GHSA-E4Sfa8MrxpU93QFYR0/edit#gid=0",
+            "active": true
+        },
+        {
+            "id": 18,
+            "title": "Typeform Movimentação de Estoque",
+            "link": "https://budadigital.typeform.com/to/A8z5KH",
+            "active": true
+        },
+        {
+            "id": 19,
+            "title": "Consulta CEP",
+            "link": "http://www.buscacep.correios.com.br/sistemas/buscacep/",
+            "active": true
+        },
+        {
+            "id": 20,
+            "title": "Suporte Alta Rodagem",
+            "link": "https://altarodagem.tomticket.com/",
+            "active": true
+        },
+        {
+            "id": 21,
+            "title": "Wirecard",
+            "link": "https://connect.wirecard.com.br/login",
+            "active": true
+        },
+        {
+            "id": 22,
+            "title": "SafraPay",
+            "link": "https://www9.safraempresas.com.br/ibj.html",
+            "active": true
+        },
+        {
+            "id": 23,
+            "title": "Stone",
+            "link": "https://portal.stone.com.br/#/login",
+            "active": true
+        },
+        {
+            "id": 24,
+            "title": "Google Analytics",
+            "link": "https://analytics.google.com/analytics/",
+            "active": true
+        },
+        {
+            "id": 25,
+            "title": "Fluxo do Site (Real Time)",
+            "link": "https://analytics.google.com/analytics/web/#/dashboard/pZbkzB40Se2Xb3b8g0Cpcg/a99792740w146489129p151259536/_u.date00=20190501&_u.date01=20190508/",
+            "active": true
+        },
+        {
+            "id": 26,
+            "title": "Arvore de KPI + Mapa de Vendas",
+            "link": "https://datastudio.google.com/u/0/reporting/1vr7_TCfNXuAH0nhRSIS9pELgG3AC4Wbm/page/6V9k",
+            "active": true
+        },
+        {
+            "id": 27,
+            "title": "Adwords",
+            "link": "https://ads.google.com/aw/overview?ocid=224807175&__c=8399666575&authuser=0&__u=9338831302",
+            "active": true
+        },
+        {
+            "id": 28,
+            "title": "Facebook Ads",
+            "link": "https://www.facebook.com/adsmanager/manage/campaigns?act=1643363105704429",
+            "active": true
+        },
+        {
+            "id": 29,
+            "title": "Gastos cartão e dinheiro",
+            "link": "https://docs.google.com/spreadsheets/d/1RLCq89QbAwTfrl8DiYqFYjKtvJF0PwGRCjjgn_e7CfM/edit?ts=5cafbe29#gid=0",
+            "active": true
+        },
+        {
+            "id": 30,
+            "title": "Colchões customizados",
+            "link": "https://docs.google.com/spreadsheets/u/1/d/1UY7HwNnr81FFdlj-X94ItMzMFr_yUCmYnCaa0p96_P0/edit#gid=0",
+            "active": true
+        },
+        {
+            "id": 31,
+            "title": "Estoque de mimos",
+            "link": "https://docs.google.com/spreadsheets/d/1YsZ7O15CVeASFW0LH8RZ0C9Qy34KQ7J-qihK97PLuew/edit?ts=5cd5c06f#gid=1364667143",
+            "active": true
+        },
+        {
+            "id": 32,
+            "title": "Clube de Marcas",
+            "link": "https://www.clubedemarcas.com.br/Sistema/403?redirect=/Sistema/buscavazia?ft=403",
+            "active": true
+        },
+        {
+            "id": 33,
+            "title": "Bonificação",
+            "link": "https://budadigital.typeform.com/to/mQYqoN",
+            "active": true
+        },
+        {
+            "id": 34,
+            "title": "NeoGrid",
+            "link": "https://id.neogrid.com/identity/login",
+            "active": true
+        },
+        {
+            "id": 35,
+            "title": "PowerBI",
+            "link": "https://app.powerbi.com/home",
+            "active": true
+        },
+        {
+            "id": 36,
+            "title": "Planilha de Transporte",
+            "link": "https://docs.google.com/spreadsheets/d/1Tng4i5MjOrb3S0_7ffG8ClRYPJ2X_J0sLfKZQTnWUVk/edit#gid=1614144397",
+            "active": true
+        }
+    ],
     "profile": {
         "name": "dougdougs"
     }
